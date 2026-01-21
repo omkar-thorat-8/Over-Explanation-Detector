@@ -14,4 +14,4 @@ A web-based interview practice tool that helps candidates avoid over-explaining 
 HTML, CSS, JavaScript
 
 ## Live Demo
-👉 [Click here to view live project](https://YOUR-USERNAME.github.io/over-explanation-detector/)
+👉 [Click here to view live project](https://omkar-thorat-8.github.io/Over-Explanation-Detector/)
