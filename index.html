@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Over-Explanation Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Over-Explanation Detector</h1>
+    <p class="subtitle">Practice concise interview answers</p>
+
+    <div class="controls">
+        <label>Select Topic</label>
+        <select id="topicSelect">
+            <option value="java">Java</option>
+            <option value="sql">SQL</option>
+            <option value="hr">HR</option>
+        </select>
+        <button id="loadQuestion">Load Question</button>
+    </div>
+
+    <div class="question-box">
+        <h3>Interview Question</h3>
+        <p id="question">Click "Load Question" to start</p>
+    </div>
+
+    <textarea id="answer" placeholder="Type your answer here..."></textarea>
+
+    <div class="stats">
+        <span>Word Count: <strong id="wordCount">0</strong></span>
+        <span>Ideal: 80–120 words</span>
+    </div>
+
+    <div id="feedback" class="feedback"></div>
+
+    <div class="confidence">
+        <label>Your Confidence</label>
+        <input type="range" id="confidenceRange" min="1" max="5" value="3">
+        <span id="confidenceValue">3 / 5</span>
+    </div>
+
+    <button id="rewriteBtn">Rewrite Concisely</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
